@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+h1{
+    
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+h3{
+    text-align: center;
+}
+
+p{
+    
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+}
+.three-width p{
+    text-align: center;
+ font-family: normal;
+ font-size: .9rem;
+}
+.name-d{
+    color: teal;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    
+}
+
+.half-width img{
+    width: 80%;
+}
+.half-width a{
+    text-decoration: none ;
+    background-color: #27AE60  ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
+.half-width a:hover{
+    background-color: #FF9633;
+    
+}
+
+
+section{
+    height: 500px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+
+.navbar{
+    background-color: #0c6168;
+  text-align: center;
+    padding: 10px;
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.menu a:hover{
+background-color: gray;
+border-radius: 10px;
+padding: 5px;
+}
+.bg-image{
+    height: 600px;
+    background-color:#E5E5E5;
+}
+.three-width{
+    background-color: white;
+    width: 30%;
+  margin-right: 18px;
+    float: left;
+    box-shadow: 10px 1px 40px gray;
+    border-radius: 10px;
+    
+}
+.three-width img{
+    width: 100%;
+    
+}
+#lasted{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.container-1{
+    background-image: url(img/groupr.png);
+    width: 80%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+    padding: 50px 100px;
+    margin:40px auto;
+    position: relative;
+}
+.half-width-1{
+    width: 45%;
+     float: left;
+    
+}
+.href-1{
+position: absolute;
+right: 30px;
+top: 100px;
+}
+.container-1 a{
+    text-decoration: none ;
+    background-color: #27AE60  ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.container-1 a:hover{
+    background-color: tomato;
+}
+.sec-lits-2{
+    height: 200px;
+    text-align: center;
+}
+.img-design{
+    width: 3%;
+    margin-right: 10px;
+}
+.style{
+    color: darkgrey;
+}
+.sec-lits-2 p{
+    margin:3px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-transform: uppercase;
+  
+}
+.sec-lits-img{
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #232F3E;
+    margin-bottom: 0;
+}
+.footer p{
+    color: white;
+text-align: center;
+}
+#id-2{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+}
+.location{
+    color: white;
+}
+
+.map{
+    width: 100%;
+    height:200px ;
+}
+
+section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
